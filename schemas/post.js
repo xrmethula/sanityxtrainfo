@@ -38,7 +38,7 @@ export default {
     {
       name: 'overview',
       title: 'Overview',
-      type: 'string',
+      type: 'text',
     },
     // {
     //   name: 'body',
@@ -52,11 +52,6 @@ export default {
       options: {
         hotspot: true,
       },
-    },
-    {
-      name: 'publishedAt',
-      title: 'Published at',
-      type: 'datetime',
     },
   ],
 };
