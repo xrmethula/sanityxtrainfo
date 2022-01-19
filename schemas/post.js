@@ -40,11 +40,12 @@ export default {
       title: 'Overview',
       type: 'text',
     },
-    // {
-    //   name: 'body',
-    //   title: 'Body',
-    //   type: 'blockContent',
-    // },
+    {
+      name: 'body',
+      title: 'Body',
+      type: 'array',
+      of: [{ type: 'block' }],
+    },
     {
       name: 'image',
       title: 'Image',
