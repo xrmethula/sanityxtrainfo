@@ -22,6 +22,18 @@ export default {
       },
     },
     {
+      name: 'category',
+      title: 'Category',
+      type: 'string',
+      options: {
+        list: [
+          { title: 'Bursaries', value: 'bursaries' },
+          { title: 'Internships', value: 'internships' },
+        ],
+        layout: 'dropDown',
+      },
+    },
+    {
       name: 'title',
       title: 'Title',
       type: 'string',
@@ -36,9 +48,9 @@ export default {
       },
     },
     {
-      name: 'overview',
-      title: 'Overview',
-      type: 'text',
+      name: 'location',
+      title: 'Location',
+      type: 'string',
     },
     {
       name: 'body',
