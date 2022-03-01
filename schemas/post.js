@@ -139,5 +139,14 @@ export default {
         hotspot: true,
       },
     },
+    {
+      name: 'form',
+      title: 'Application Form',
+      type: 'file',
+      options: {
+        storeOriginalFilename: true,
+        accept: '.pdf',
+      },
+    },
   ],
 };
