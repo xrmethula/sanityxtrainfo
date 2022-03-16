@@ -29,6 +29,7 @@ export default {
         list: [
           { title: 'Bursaries', value: 'bursaries' },
           { title: 'Internships', value: 'internships' },
+          { title: 'Learnerships', value: 'learnerships' },
         ],
         layout: 'dropDown',
       },
